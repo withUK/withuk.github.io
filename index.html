@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="/styles/styles.css">
+
+    <script src="/scripts/scripts.js"></script>
 </head>
 
 <body class="w3-black">
@@ -69,30 +71,40 @@
             
             <!-- Skills -->
             <h3 class="w3-padding-16 w3-text-light-grey">Skills</h3>
+
             <p class="w3-wide"><i class="fas fa-code w3-xlarge"></i> C#</p>
-            <div class="w3-white">
+            <div class="w3-white" onclick="showHideSummary('csharpSummary')">
             <div class="w3-dark-grey" style="height:28px;width:81%"></div>
             </div>
+            <div id="csharpSummary" class="w3-container w3-hide">
+                <p>Some text..</p>
+            </div>
+
             <p class="w3-wide"><i class="fas fa-database w3-xlarge"></i> SQL</p>
             <div class="w3-white">
             <div class="w3-dark-grey" style="height:28px;width:86%"></div>
             </div>
+
             <p class="w3-wide"><i class="fab fa-java w3-xlarge"></i> Java</p>
             <div class="w3-white">
             <div class="w3-dark-grey" style="height:28px;width:68%"></div>
             </div>
+
             <p class="w3-wide"><i class="fab fa-html5 w3-xlarge"></i> HTML</p>
             <div class="w3-white">
             <div class="w3-dark-grey" style="height:28px;width:79%"></div>
             </div>
+
             <p class="w3-wide"><i class="fab fa-css3-alt w3-xlarge"></i> CSS</p>
             <div class="w3-white">
             <div class="w3-dark-grey" style="height:28px;width:74%"></div>
             </div>
+
             <p class="w3-wide"><i class="fab fa-js-square w3-xlarge"></i> JavaScript</p>
             <div class="w3-white">
             <div class="w3-dark-grey" style="height:28px;width:71%"></div>
             </div>
+
             <br>
             
             <!-- Workflows -->
