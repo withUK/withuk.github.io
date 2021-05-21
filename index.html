@@ -124,6 +124,24 @@
                             <p class="skill-summary">Some text..</p>
                         </div>
 
+                        <p><b>Tools</b></p>
+                        
+                        <p onclick="showHideSummary('msofficeSummary')"><i class="fab fa-windows w3-xlarge"></i> Microsoft Office</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small" onclick="showHideSummary('msofficeSummary')">
+                            <div class="w3-container w3-center w3-round-xlarge w3-red progress" style="width:90%">90%</div>
+                        </div>
+                        <div id="msofficeSummary" class="w3-container w3-hide">
+                            <p class="skill-summary">Some text..</p>
+                        </div>
+
+                        <p onclick="showHideSummary('googleofficeSummary')"><i class="fab fa-google-drive w3-xlarge"></i> Google Office Suite</p>
+                        <div class="w3-light-grey w3-round-xlarge w3-small" onclick="showHideSummary('googleofficeSummary')">
+                            <div class="w3-container w3-center w3-round-xlarge w3-red progress" style="width:80%">80%</div>
+                        </div>
+                        <div id="googleofficeSummary" class="w3-container w3-hide">
+                            <p class="skill-summary">Some text..</p>
+                        </div>
+
                         <br>
                     </div>
                 </div>
@@ -158,39 +176,53 @@
                 <div class="w3-container w3-card w3-white w3-margin-bottom">
                     <h2 id="experience" class="w3-text-grey w3-padding-16"><i class="fas fa-briefcase fa-fw w3-margin-right w3-xxlarge w3-text-red"></i>Experience</h2>
                     
-                    <div class="w3-container">
+                    <div class="w3-container" onclick="showHideSummary('lccDeveloperSummary')">
                         <h5 class="w3-opacity"><b>Developer / Leeds City Council</b></h5>
                         <h6 class="w3-text-red"><i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2016 - <span class="w3-tag w3-red w3-round">Current</span></h6>
-                        <p>The support and development of the organisations digital applications. </p>
+                        <div id="lccDeveloperSummary" class="w3-hide">
+                            <p>The support and development of the organisations digital applications. </p>
+                            <p>Tools and software: Visual Studio, Visual Studio Code, SQL Server Management Studio, Power BI, Sharepoint</p>
+                        </div>
                         <hr>
                     </div>
 
-                    <div class="w3-container">
+                    <div class="w3-container" onclick="showHideSummary('lccTelephonySummary')">
                         <h5 class="w3-opacity"><b>Telephony & IT Officer / Leeds City Council</b></h5>
                         <h6 class="w3-text-red"><i class="fa fa-calendar fa-fw w3-margin-right"></i>September 2012 - February 2016</h6>
-                        <p>As a telephony officer my role was to maintain the local authorities corporate contact centre telephone system. Key responsibilities involved the routing of calls based on requirements by the services as well as implemeting any technical upgrades ranging from the software applications used by the team, the software that ran the call handling all the way to the physical hardware needed to run the system.</p>
-                        <p>The technologies included an Avaya hardware environment along with CMS software</p>
+                        <div id="lccTelephonySummary" class="w3-hide">
+                            <p>As a telephony officer my role was to maintain the local authorities corporate contact centre telephone system. Key responsibilities involved the routing of calls based on requirements by the services as well as implemeting any technical upgrades ranging from the software applications used by the team, the software that ran the call handling all the way to the physical hardware needed to run the system.</p>
+                            <p>Tools and software: Avaya hardware environment, CMS Supervisor, Oracle Web Chat</p>
+                        </div>
                         <hr>
                     </div>
 
-                    <div class="w3-container">
+                    <div class="w3-container" onclick="showHideSummary('lccOperationalSupport')">
                         <h5 class="w3-opacity"><b>Operational Support Officer / Leeds City Council</b></h5>
                         <h6 class="w3-text-red"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 2010 - September 2012</h6>
-                        <p>My time within the operational support </p>
+                        <div id="lccOperationalSupport" class="w3-hide">
+                            <p>My time within the operational support exposed me to the world of data and how it can be used to to plan and forecast trends. Handling staff levels and monitoring performance was also a key responsibility whereby I would liase with team leaders and operational managers and advise on the upcomng events and required levels to achieve the agreed SLA.</p>
+                            <p>Tools and software: Avaya Forecasting and Scheduling, CMS Supervisor, </p>
+                        </div>
                         <hr>
                     </div>
 
-                    <div class="w3-container">
+                    <div class="w3-container" onclick="showHideSummary('lccCustomerService')">
                         <h5 class="w3-opacity"><b>Customer Service Officer / Leeds City Council</b></h5>
                         <h6 class="w3-text-red"><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2008 - June 2010</h6>
-                        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                        <div id="lccCustomerService" class="w3-hide">
+                            <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                            <p>Tools and software: Siebel</p>
+                        </div>
                         <hr>
                     </div>
 
-                    <div class="w3-container">
+                    <div class="w3-container" onclick="showHideSummary('luminarAssistantManager')">
                         <h5 class="w3-opacity"><b>Senior Assistant Manager / Luminar Leisure</b></h5>
                         <h6 class="w3-text-red"><i class="fa fa-calendar fa-fw w3-margin-right"></i>September 2004 - March 2008</h6>
-                        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                        <div id="luminarAssistantManager" class="w3-hide">
+                            <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+                            <p>Tools and software: Adobe Premier Pro, Lotus Notes, Microsoft Office, Facebook, Twitter</p>
+                        </div>
                         <hr>
                     </div>
                 </div>
